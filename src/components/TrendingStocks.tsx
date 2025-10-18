@@ -2,11 +2,14 @@ import { TrendingUp, TrendingDown, Flame } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const stocks = [
-  { symbol: "AAPL", name: "Apple Inc.", price: "$178.23", change: "+2.34%", volume: "89.2M", isUp: true },
-  { symbol: "TSLA", name: "Tesla Inc.", price: "$245.67", change: "+5.67%", volume: "120.4M", isUp: true },
-  { symbol: "NVDA", name: "NVIDIA Corp.", price: "$487.89", change: "-1.23%", volume: "56.8M", isUp: false },
+  { symbol: "RGTI", name: "Rigetti Computing", price: "$12.34", change: "+8.45%", volume: "45.2M", isUp: true },
+  { symbol: "IONQ", name: "IonQ Inc.", price: "$18.67", change: "+6.23%", volume: "32.8M", isUp: true },
+  { symbol: "QBTS", name: "D-Wave Quantum", price: "$5.89", change: "-2.45%", volume: "28.4M", isUp: false },
+  { symbol: "QUBT", name: "Quantum Computing", price: "$7.23", change: "+12.34%", volume: "52.1M", isUp: true },
+  { symbol: "NVDA", name: "NVIDIA Corp.", price: "$487.89", change: "+2.56%", volume: "56.8M", isUp: true },
+  { symbol: "TSM", name: "Taiwan Semi", price: "$156.45", change: "+1.78%", volume: "34.5M", isUp: true },
   { symbol: "MSFT", name: "Microsoft", price: "$378.45", change: "+1.89%", volume: "45.6M", isUp: true },
-  { symbol: "AMZN", name: "Amazon", price: "$156.78", change: "+3.21%", volume: "67.3M", isUp: true },
+  { symbol: "AAPL", name: "Apple Inc.", price: "$178.23", change: "+1.34%", volume: "89.2M", isUp: true },
 ];
 
 export const TrendingStocks = () => {

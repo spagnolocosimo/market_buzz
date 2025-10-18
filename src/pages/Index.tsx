@@ -4,6 +4,8 @@ import { TrendingStocks } from "@/components/TrendingStocks";
 import { NewsFeed } from "@/components/NewsFeed";
 import { MarketSentiment } from "@/components/MarketSentiment";
 import { TopMovers } from "@/components/TopMovers";
+import { BubbleChart } from "@/components/BubbleChart";
+import { EventsCalendar } from "@/components/EventsCalendar";
 
 const Index = () => {
   return (
@@ -37,12 +39,14 @@ const Index = () => {
           {/* Main Grid */}
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2 space-y-6">
+              <BubbleChart />
               <TrendingStocks />
               <NewsFeed />
             </div>
             <div className="space-y-6">
               <MarketSentiment />
               <TopMovers />
+              <EventsCalendar />
             </div>
           </div>
         </div>
